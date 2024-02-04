@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Petar's Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/static-part.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about-me.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/skills-certificates-languages.css">
+    <link rel="stylesheet" href="css/education.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BenchNine&display=swap" rel="stylesheet">
+    <script src="js/global.js" async></script>
+</head>
+<body>
+<div class="static-part">
+    <header>
+        <div id="logo">
+            <a href=""><img class="logo-image" src="Images/LogoPM-Logo-DarkYellow.png" alt="imageNorResponding"></a>
+        </div>
+        <div id="sections">
+            <a href="#home-container" class="links" onmouseover="navColorWhite(0)" onmouseout="colorChange()">Home</a>
+            <a href="#about-me-container" class="links" onmouseover="navColorWhite(1)" onmouseout="colorChange()">About Me</a>
+            <a href="#projects-container" class="links" onmouseover="navColorWhite(2)" onmouseout="colorChange()">Projects</a>
+            <a href="#education-container" class="links" onmouseover="navColorWhite(3)" onmouseout="colorChange()">Education</a>
+            <a href="#hobbies-container" class="links" onmouseover="navColorWhite(4)" onmouseout="colorChange()">Hobbies</a>
+            <a href="#contact-container" class="links" onmouseover="navColorWhite(5)" onmouseout="colorChange()">Contact</a>
+        </div>
+        <div id="theme-language">
+            <div id="switch-button" class="language-switch">
+                <input onclick="changeTheme()" class="swipeTheme" type="checkbox" id="themeToggle">
+                <label for="themeToggle"></label>
+            </div>
+        </div>
+    </header>
+    <div id="contact-float">
+        <div id="e-mail" class="contact-item">
+            <a target=”_blank” href="mailto:pm.working.email@gmail.com"><span>pm.working.email@gmail.com</span><i class="emailLogo fa-solid fa-envelope"></i></a>
+        </div>
+        <div id="linked-in" class="contact-item">
+            <a target=”_blank” href="https://www.linkedin.com/in/petar-mladenovski-4b09a5274/"><span>Petar Mladenovski</span><i class="linkedInLogo fa-brands fa-linkedin"></i></a>
+        </div>
+        <div id="instagram" class="contact-item">
+            <a target=”_blank” href="https://www.instagram.com/__mladenovski/"><span>__mladenovski</span><i class="instagramLogo fa-brands fa-instagram"></i></a>
+        </div>
+        <div id="git-hub" class="contact-item">
+            <a target=”_blank” href="https://github.com/Petar-Mladenovski"><span>Petar-Mladenovski</span><i class="gitHubLogo fa-brands fa-github"></i></a>
+        </div>
+    </div>
+</div>
+<div id="home-container">
+    <img class="home-container-image" alt="pictureNotResponding" src="Images/imgTheme3.jpg">
+    <div id="home-container-text">
+        <div>WELCOME TO PETAR'S</div>
+        <div>CODING CORNER!</div>
+    </div>
+</div>
+
+<div id="about-me-container" class="about-me-container-background">
+    <div id="about-me-container-title">ABOUT ME</div>
+    <div id="about-me-container-content">
+        <div id="about-me-container-content-text">Enthusiastic and dedicated Software Engineering student with a passion for leveraging technology to solve complex problems.
+            Currently pursuing a degree in Software Engineering, I possess a solid foundation in coding, algorithm design, and software development.
+            My university studies has equipped me with a strong understanding of various programming languages and software engineering principles.
+            Eager to apply my theoretical knowledge in a practical setting, I am actively seeking internship opportunities.
+            A quick learner with a keen eye for detail,
+            I am excited about the prospect of contributing to innovative projects and gaining hands-on experience in a dynamic professional environment.</div>
+        <img id="about-me-container-content-image" alt="pictureNotResponding" src="Images/image%206pp.png">
+    </div>
+</div>
+
+<div id="projects-container" class="project-container">
+    <div id="projects-container-title">PROJECTS</div>
+    <div id="all-project-container">
+        <input type="radio" name="slider" class="d-none" id="s1" checked>
+        <input type="radio" name="slider" class="d-none" id="s2">
+        <input type="radio" name="slider" class="d-none" id="s3">
+        <input type="radio" name="slider" class="d-none" id="s4">
+        <input type="radio" name="slider" class="d-none" id="s5">
+
+        <div class="cards">
+            <label for="s1" id="slide1">
+                <div class="card">
+                    <div class="image">
+                        <img src="Images/TicketSystemProject.png" alt="">
+                        <div class="dots">
+                            <div class="dot1"></div>
+                            <div class="dot2"></div>
+                            <div class="dot3"></div>
+                        </div>
+                    </div>
+                    <div class="infos">
+                        <span class="name">Nike SuperRep Go</span>
+                        <span class="lorem">Lorem ipsum dolor sit amet, sit amet  adipiscing elit. Aenean vel ansd . Nullam
+              lorem. Nulla eu
+              sodales
+
+                        C# ASP .NET MVC Web Application</span>
+                    </div>
+                </div>
+            </label>
+
+            <label for="s2" id="slide2">
+                <div class="card">
+                    <div class="image">
+                        <img src="Images/WinesProject.png" alt="">
+                        <div class="dots">
+                            <div class="dot1"></div>
+                            <div class="dot2"></div>
+                            <div class="dot3"></div>
+                        </div>
+                    </div>
+                    <div class="infos">
+                        <span class="name">Wines.mk</span>
+                        <span class="lorem">
+                            Wines.mk is a dynamic web application to provide information about wineries in Macedonia
+                            and present their wines and products to interested users. At the same time,
+                            the application will allow users to register and sign up for events
+                            and tastings that will be held in collaboration with the winery itself. It was developed
+                            using React.js as the Frontend and Java Spring Boot as the Backend.
+                        </span>
+                        <a href="https://github.com/StefanVodilovski/winery-mk.git">More Info</a>
+                    </div>
+                </div>
+            </label>
+
+            <label for="s3" id="slide3">
+                <div class="card">
+                    <div class="image">
+                        <img src="Images/JetShooterProject.png" alt="">
+                        <div class="dots">
+                            <div class="dot1"></div>
+                            <div class="dot2"></div>
+                            <div class="dot3"></div>
+                        </div>
+                    </div>
+                    <div class="infos">
+                        <span class="name">Jet-Shooter Game</span>
+                        <span class="lorem">
+                            JetShooter is a game whose main goal is to achieve the highest possible high score by hitting the meteors,
+                            which become faster and faster with each successive level.
+                            It was developed using C# with .Net Windows Forms, featuring an interactive user interface, core game logic,
+                            graphics integration, and various gameplay features for a captivating gaming experience.
+                        </span>
+                        <a href="https://github.com/JetShooter/JetShooter.git">More Info</a>
+                    </div>
+                </div>
+            </label>
+
+            <label for="s4" id="slide4">
+                <div class="card">
+                    <div class="image">
+                        <img src="Images/calisthenics.jpg" alt="">
+                        <div class="dots">
+                            <div class="dot1"></div>
+                            <div class="dot2"></div>
+                            <div class="dot3"></div>
+                        </div>
+                    </div>
+                    <div class="infos">
+                        <span class="name">Retro High Og</span>
+                        <span class="lorem">Lorem ipsum dolor sit, sit amet elit. Aenean sit amet sit amet vel velit sit ansd. Nulla eu
+              sodales stellus</span>
+                    </div>
+                </div>
+            </label>
+
+            <label for="s5" id="slide5">
+                <div class="card">
+                    <div class="image">
+                        <img src="Images/calisthenics.jpg" alt="">
+                        <div class="dots">
+                            <div class="dot1"></div>
+                            <div class="dot2"></div>
+                            <div class="dot3"></div>
+                        </div>
+                    </div>
+                    <div class="infos">
+                        <span class="name">Off-White Air Jordan</span>
+                        <span class="lorem">Lorem ipsum sit amet, sit amet elit. Aenean vel velit ansd . Nullam
+              lorem. Nulla eu
+              sodales stellus</span>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+</div>
+<div id="skills-certificates-languages-container" class="skills-container">
+    <div id="soft-skills">
+        <div>Soft Skills</div>
+        <div>
+            <ul>
+                <li>Responsible</li>
+                <li>Adaptability</li>
+                <li>Positivity</li>
+                <li>Communication</li>
+                <li>Reliable</li>
+            </ul>
+            <ul>
+                <li>Leadership</li>
+                <li>Creativity</li>
+                <li>Teamwork</li>
+                <li>Quick Learner</li>
+                <li>Problem-solving</li>
+            </ul>
+        </div>
+    </div>
+    <div id="tech-skills">
+        <div>Tech Skills</div>
+        <div>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C / C++</li>
+                <li>C#</li>
+                <li>ASP .NET</li>
+            </ul>
+            <ul>
+                <li>Javascript</li>
+                <li>HTML & CSS</li>
+                <li>GitHub</li>
+                <li>PostgresSQL</li>
+                <li>Spring Boot</li>
+            </ul>
+        </div>
+    </div>
+    <div id="certificates">
+        <div>Certificates</div>
+        <ul id="certificates-height">
+            <li>"A Week of Programming" by Semos <br> Education</li><br>
+            <li>Secured FIRST place in International Visual <br> Art competition.</li>
+        </ul>
+    </div>
+    <div id="languages">
+        <div>Languages</div>
+        <div>
+            <ul>
+                <li>Macedonian</li>
+                <li>English</li>
+            </ul>
+            <ul>
+                <li>Serbian</li>
+                <li>Croatian</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="education-container">
+    <div id="education-container-title" class="education-title">EDUCATION</div>
+    <div id="education-container-content" class="education-content">
+        <div id="education-container-content-finki">Faculty of Computer Science & Engineering <br>
+            2021 - present <br>
+            Saints Cyril and Methodius University section: Software engineering and information systems
+        </div>
+        <hr>
+        <div id="education-container-content-orce">Orce Nikolov - high school <br>
+            2017 - 2021 <br>
+            main subjects: Mathematics, Physics, Computer science
+        </div>
+    </div>
+</div>
+<div id="hobbies-container" class="hobbies-container-background">
+
+    <div id="hobbies-container-title">HOBBIES</div>
+
+    <div class="container" id="hobbies-container-content">
+        <div class="box gallery-item">
+            <img src="Images/calisthenics.jpg" alt="Image 1">
+            <p>Calisthenics</p>
+        </div>
+        <div class="box gallery-item">
+            <img src="Images/football.jpg" alt="Image 2">
+            <p>Football</p>
+        </div>
+        <div class="box gallery-item">
+            <img src="Images/hiking.jpg" alt="Image 3">
+            <p>Hiking</p>
+        </div>
+<!--        <div class="box gallery-item">
+            <img src="Images/stars.jpg" alt="Image 4">
+            <p>Stargazing</p>
+        </div>-->
+        <div class="box gallery-item">
+            <img src="Images/photography.jpg" alt="Image 5">
+            <p>Photographing</p>
+        </div>
+<!--        <div class="box gallery-item">
+            <img src="Images/traveling.jpg" alt="Image 6">
+            <p>Traveling</p>
+        </div>-->
+    </div>
+</div>
+<div id="contact-container" class="contact-text">
+    <div id="contact-container-title" class="contact-title">CONTACT ME</div>
+    <div id="contact-container-content">
+        <div id="contact-container-content-left">
+            <div id="email-container" class="email-text">
+                <div>Crafting Code Together <br>for a Brighter Tomorrow!</div>
+                <a href="mailto:pm.working.email@gmail.com"><i class="emailLogo email-text fa-solid fa-envelope"></i><span class="email-text">pm.working.email@gmail.com</span></a>
+            </div>
+        </div>
+        <div id="contact-container-content-right">
+            <div id="contact-container-content-left-text" class="contact-info">Grab a virtual coffee and let's discuss your ideas!
+                Whether it's coding or brainstorming tech ideas, let's have a chat and build something amazing.
+                Always open to new opportunities and exciting projects. Feel free to drop me a message.
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
