@@ -48,11 +48,11 @@ function colorChange() {
         resetColor();
         sections[0].style.color = "white";
     }
-    else if(n >= 100 && n < 180){
+    else if(n >= 100 && n < 175){
         resetColor();
         sections[1].style.color = "white";
     }
-    else if(n >= 180 && n < 260){
+    else if(n >= 175 && n < 260){
         resetColor();
         sections[2].style.color = "white";
     }
