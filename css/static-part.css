@@ -180,21 +180,24 @@
 
 ::-webkit-scrollbar-track {
     #background-color: rgba(113,82,65,0.5); !important;
-    background-color: rgba(224, 190, 31, 0.5); !important;
+    #background-color: rgba(224, 190, 31, 0.5); !important;
+    background-color: rgba(153, 153, 153, 0.63); !important;
     border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     #background-color: #715241;
-    background-color: rgb(224, 190, 31);
+    #background-color: rgb(224, 190, 31);
+    background-color: rgba(23, 22, 22, 0.61);
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-/*    #background-color: #261912;
-    background-color: rgb(166, 138, 12);*/
+    #background-color: #261912;
+    #background-color: rgb(166, 138, 12);
+    background-color: rgba(23, 22, 22, 0.84);
 }
 
 
