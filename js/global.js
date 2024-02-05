@@ -392,16 +392,16 @@ function checkTheme () {
         }
     }
 
-/*    if (swipeTheme[0].checked) {
-        trackRule.style.backgroundColor = 'rgba(113, 82, 65, 0.5)';
-        thumbRule.style.backgroundColor = '#715241';
+    if (swipeTheme[0].checked) {
+        /*trackRule.style.backgroundColor = 'rgba(113, 82, 65, 0.5)';
+        thumbRule.style.backgroundColor = '#715241';*/
         contactBackground.style.background = "#715241";
     } else {
-        trackRule.style.backgroundColor = 'rgba(224, 190, 31, 0.5)';
-        thumbRule.style.backgroundColor = 'rgb(224, 190, 31)';
+        /*trackRule.style.backgroundColor = 'rgba(224, 190, 31, 0.5)';
+        thumbRule.style.backgroundColor = 'rgb(224, 190, 31)';*/
         contactBackground.style.background = "#e0be1f";
     }
-*/
+
 
 }
 
