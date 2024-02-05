@@ -76,8 +76,9 @@
     height: 70%;
     width: 25%;
     flex-shrink: 0;
-    scroll-snap-align: start;
-    padding-right: 25px;
+    scroll-snap-align: start;    
+    padding-left: 13px;
+    padding-right: 13px;
 }
 
 
