@@ -68,9 +68,7 @@
     scroll-behavior: smooth;
 }
 
-#hobbies-container-content .box:first-child {
-    padding-left: 25px !important;
-}
+
 
 .box {
     height: 70%;
