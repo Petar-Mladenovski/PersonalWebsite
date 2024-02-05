@@ -392,7 +392,7 @@ function checkTheme () {
         }
     }
 
-    if (swipeTheme[0].checked) {
+/*    if (swipeTheme[0].checked) {
         trackRule.style.backgroundColor = 'rgba(113, 82, 65, 0.5)';
         thumbRule.style.backgroundColor = '#715241';
         contactBackground.style.background = "#715241";
@@ -401,7 +401,7 @@ function checkTheme () {
         thumbRule.style.backgroundColor = 'rgb(224, 190, 31)';
         contactBackground.style.background = "#e0be1f";
     }
-
+*/
 
 }
 
