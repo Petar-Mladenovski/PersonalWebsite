@@ -227,3 +227,41 @@
     --current-color1: #ECEAED;
     --current-color2: #404457;
 }
+
+@media only screen and (max-width: 1500px) {
+    #all-project-container .cards {
+        height: 650px;
+        width: 550px;
+        perspective: 500px;
+    }
+    #all-project-container .infos .name{
+        font-size: 27px;
+    }
+
+    #all-project-container .infos .lorem{
+        font-size: 18px;
+    }
+
+    #all-project-container .card .infos a{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #all-project-container .cards {
+        height: 600px;
+        width: 500px;
+        perspective: 400px;
+    }
+    #all-project-container .infos .name{
+        font-size: 24px;
+    }
+
+    #all-project-container .infos .lorem{
+        font-size: 15px;
+    }
+
+    #all-project-container .card .infos a{
+        font-size: 16px;
+    }
+}
