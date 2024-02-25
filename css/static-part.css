@@ -259,3 +259,37 @@
     background-color: rgb(224, 190, 31);
     transform: translateX(20px); /* Move the switch handle to the right when checked */
 }
+
+
+@media only screen and (max-width: 1600px) {
+    .static-part a {
+        font-size: 27px !important;
+    }
+    #logo {
+        width: 100px;
+    }
+    #theme-language {
+        width: 100px;
+    }
+    #sections {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    #sections {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    #sections {
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .static-part a {
+        font-size: 24px !important;
+    }
+    #sections {
+        width: 60%;
+    }
+}
