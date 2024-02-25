@@ -31,3 +31,43 @@
     padding-top: 0;
     font-size: 30px;
 }
+
+@media only screen and (max-width: 1600px) {
+    #home-container-text {
+        font-size: 65px;
+    }
+    #home-container-text div:nth-child(2) {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #home-container-text {
+        font-size: 60px;
+        right: 37%;
+    }
+    #home-container-text div:nth-child(2) {
+        font-size: 23px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #home-container-text {
+        font-size: 55px;
+        right: 35%;
+    }
+    #home-container-text div:nth-child(2) {
+        padding-top: 10px;
+        font-size: 21px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #home-container-text {
+        font-size: 50px;
+        right: 32%;
+    }
+    #home-container-text div:nth-child(2) {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+}
