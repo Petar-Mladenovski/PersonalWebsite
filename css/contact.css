@@ -97,3 +97,31 @@
     transition: 0.5s;
 }
 
+@media only screen and (max-width: 1400px) {
+    #email-container div {
+        font-size: 30px;
+    }
+    #email-container {
+        font-size: 40px;
+    }
+    #email-container span {
+        font-size: 26px;
+    }
+    #contact-container-content-left-text {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    #email-container div {
+        font-size: 28px;
+    }
+    #email-container {
+        font-size: 37px;
+    }
+    #email-container span {
+        font-size: 24px;
+    }
+    #contact-container-content-left-text {
+        font-size: 27px;
+    }
+}
