@@ -60,3 +60,35 @@
     color: white;
     text-shadow: 2px 4px 9px rgba(38, 25, 18, 0.7);
 }
+
+@media only screen and (max-width: 1400px) {
+    #soft-skills div:nth-child(1),
+    #tech-skills div:nth-child(1),
+    #languages div:nth-child(1),
+    #certificates div:nth-child(1){
+        font-size: 30px;
+    }
+    #skills-certificates-languages-container {
+        font-size: 22px;
+    }
+    #certificates li{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #soft-skills div:nth-child(1),
+    #tech-skills div:nth-child(1),
+    #languages div:nth-child(1),
+    #certificates div:nth-child(1){
+        font-size: 28px;
+    }
+    #skills-certificates-languages-container {
+        font-size: 19px;
+    }
+    #certificates li{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
